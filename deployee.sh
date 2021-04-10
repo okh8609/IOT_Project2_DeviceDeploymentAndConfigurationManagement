@@ -30,7 +30,7 @@ uwsgi --socket :8888 --plugin python --wsgi-file app.py \
         --home /usr/lib
         --home ~/.local
 
-
+pip3 freeze > requirements.txt
 
 # 查看LOG
 cat /var/log/nginx/access.log

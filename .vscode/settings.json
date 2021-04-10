@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "types.h": "c",
+        "inotify.h": "c",
+        "stdlib.h": "c"
+    }
+}
