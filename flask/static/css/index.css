@@ -1,0 +1,29 @@
+body {
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    color: #4A4A4A ;
+    text-align: center; 
+    background-color:aqua;
+}
+
+
+p{ 
+    font-size: 20px;
+    font-family: DFKai-sb;
+    margin-top: 10px;
+    text-align: center;
+    /* font-weight: bold; */
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5px; 
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+a{
+    text-decoration: none;
+    color: #4A4A4A !important;
+}
