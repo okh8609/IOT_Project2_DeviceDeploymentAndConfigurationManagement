@@ -25,7 +25,6 @@ pip3 install -r requirements.txt
 uwsgi --socket :8888 --plugin python --wsgi-file app.py \
         --callable app --processes 4 --threads 2 \
         --py-autoreload=1 
-        
         \ #???
         --home /usr/lib
         --home ~/.local
