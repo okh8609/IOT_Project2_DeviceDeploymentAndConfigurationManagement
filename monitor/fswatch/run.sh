@@ -1,6 +1,11 @@
 #!/bin/bash
 
-kill $(ps -C 'python3 ./rpi.py' | grep 'py' | awk '{print $1}')
+control_c() {
+    kill $(ps -C 'python3 ./rpi.py' | grep 'py' | awk '{print $1}')
+    exit
+}
+
+trap control_c SIGINT
 
 # get UUID
 UUID_FILE_PATH=./UUID.txt
